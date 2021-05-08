@@ -8,11 +8,11 @@ import TopSell from '../TopSells/TopSell'
 function LandingPage() {
   return (
     <div>
-     <HeroCarosel/>
-     <Category/>
-      <TopSell/>
-      <Sub/>
-      <Footer/>
+      <HeroCarosel />
+      <Category />
+      <TopSell />
+      <Sub />
+      <Footer />
     </div>
   )
 }

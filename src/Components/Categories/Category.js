@@ -8,7 +8,7 @@ import women from '../../assets/images/section-women.jpg'
 function Category() {
   return (
     <Row className="categories-section">
-        <Col span={6} className="column" >
+        <Col xl={6} sm={24} className="column" >
         <div>
        <h1 style={{fontSize:'70px',marginLeft:'50px'}}>End Of Season
          </h1> 
@@ -23,11 +23,11 @@ function Category() {
 
         </div>
         </Col>
-        <Col span={6} className="column" >
+        <Col xl={6} sm={24} className="column" >
         <img src={women} alt=""  className="image-section" /></Col>
-        <Col span={6} className="column" >
+        <Col xl={6} sm={24} className="column" >
         <img src={kid} alt=""  className="image-section" /></Col>
-        <Col span={6} className="column" >
+        <Col xl={6} sm={24} className="column" >
         <img src={men} alt=""  className="image-section" /></Col>
       
     </Row>
